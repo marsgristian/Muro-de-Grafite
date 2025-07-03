@@ -75,12 +75,12 @@ class _HomePageState extends State<HomePage> {
         provider: provider,
       );
       print('Exportação concluída. Tamanho base64: \\${base64.length} bytes');
-      if (base64.length > 900 * 1024) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('O mural ficou muito grande para o limite gratuito do Firebase. Diminua o desenho e tente novamente.')),
-        );
-        return;
-      }
+      // if (base64.length > 900 * 1024) {
+      //   ScaffoldMessenger.of(context).showSnackBar(
+      //     const SnackBar(content: Text('O mural ficou muito grande para o limite gratuito do Firebase. Diminua o desenho e tente novamente.')),
+      //   );
+      //   return;
+      // }
       print('Exportação concluída. Enviando para o Firebase...');
       final db = FirebaseDatabase.instance.ref();
       await db.child('public_drawings/current').set(base64);

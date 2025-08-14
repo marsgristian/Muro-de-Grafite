@@ -2,11 +2,13 @@
 
 Mural colaborativo de grafite onde usuários podem desenhar sobre uma parede urbana e publicar seus desenhos para todos verem.
 
+[``PIXE  /** AAAAKIIIIIIIII !!!!!!!!!!!!!!](https://marsgristian.github.io/Muro-de-Grafite/)
+
 ## Funcionalidades
 
 - 🎨 Desenho colaborativo em tempo real
 - 🖌️ Ferramentas de desenho (pincel, borracha, navegação)
-- 🌈 Seletor de cores profissional
+- 🌈 Seletor de cores
 - 📱 Responsivo para desktop e mobile
 - 🔄 Publicação e carregamento automático do mural
 - 💾 Integração com Firebase Realtime Database
